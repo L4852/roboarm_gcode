@@ -48,7 +48,8 @@ impl InitError {
 
 fn main() {
     println!("==ROBOTARM GCODE PARSER==");
-
+    
+    // PORT ASSOCIATED WITH SERIAL CONNECTION
     let port_address = "/dev/cu.usbserial-210";
 
     // init
